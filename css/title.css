@@ -1,0 +1,51 @@
+body{
+	background-color: black;
+}
+br{
+	display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 0; /* change this to whatever height you want it */
+}
+h1{
+	color: red;
+	font-size: 69px;
+	font-family:fantasy;
+	text-align: center;
+	text-underline-offset: 11px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+h2{
+	color: red;
+	font-size: 34px;
+	font-family: fantasy;
+	text-align: center;
+	text-underline-offset: 5px;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+p{
+	color: red;
+	font-size: 24px;
+	font-family: "Deutsch Gothic";
+	src: url('./fonts/Deutsch Gothic.ttf');
+	text-align: center;
+	text-decoration: underline;
+}
+button{
+	color: red;
+	background-color: black;
+	border: 5px solid red;
+	border-radius: 5px;
+	padding: 75px;
+	text-align: center;
+	font-size: 75px;
+}
+.center{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
