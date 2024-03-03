@@ -24,16 +24,17 @@ function displayNumber(){
 function delayBtn(){
     document.getElementById("delay2").style.display = "none";
 
-    // Wait for a certain amount of time (e.g., 5 seconds)
+    // Wait for a certain amount of time (e.g., 7 seconds)
     setTimeout(function() {
         // Show the button after the specified time
-        document.getElementById("delay2").style.display = "block";
-
         /*plays audio */
     var audio = new Audio('./fx/ambience5.mp3')
     audio.play();
+        document.getElementById("delay2").style.display = "block";
 
-}, 8000); // 8000 milliseconds (8 seconds)
+        
+
+}, 7000); // 7000 milliseconds (7 seconds)
 
 }
 
