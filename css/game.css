@@ -1,0 +1,44 @@
+body{
+	background-color: black;
+}
+p{
+	color: red;
+	font-size: 36px;
+	font-family: "Deutsch Gothic";
+	src: url('./fonts/Deutsch Gothic.ttf');
+	text-align: center;
+	text-decoration: underline;
+}
+button{
+	color: red;
+	background-color: black;
+	border: 5px solid red;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	font-size: 45px;
+}
+.center{
+margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.txtOffset1{
+margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.txtOffset2{
+margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

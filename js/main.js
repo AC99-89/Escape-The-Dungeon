@@ -1,6 +1,6 @@
 /*Code to make the text animation on the main webpage */
 const num = ["", "Choose which choice to make.", "Some will help you escape,", "while others will not.", "You have limited hp", "and little defense.", "Can You Escape?"];
-let index = 0
+let index = 0;
 function displayNumber(){
 	if (index < num.length) {
         document.getElementById("delay").innerHTML = num[index];
@@ -9,10 +9,10 @@ function displayNumber(){
         	setTimeout(displayNumber, 2000);
         }
         else if(index == 7){
-        	document.getElementById("delay").style.fontSize = "36px"
-        	document.getElementById("delay").style.fontFamily = "fantasy"
-        	document.getElementById("delay").style.textUnderlineOffset = "5px"
-        	document.getElementById("delay").style.textDecorationStyle = "wavy"
+        	document.getElementById("delay").style.fontSize = "36px";
+        	document.getElementById("delay").style.fontFamily = "fantasy";
+        	document.getElementById("delay").style.textUnderlineOffset = "5px";
+        	document.getElementById("delay").style.textDecorationStyle = "wavy";
         }
         else{
         setTimeout(displayNumber, 1000);
@@ -28,7 +28,7 @@ function delayBtn(){
     setTimeout(function() {
         // Show the button after the specified time
         /*plays audio */
-    var audio = new Audio('./fx/ambience5.mp3')
+    var audio = new Audio('./fx/ambience5.mp3');
     audio.play();
         document.getElementById("delay2").style.display = "block";
 
@@ -40,7 +40,7 @@ function delayBtn(){
 
 /* Takes user to the game */
 document.getElementById("delay2").onclick = function() {
-    location.href = "./game.html"
+    location.href = "./game.html";
 }
 
 delayBtn();

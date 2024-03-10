@@ -4,8 +4,28 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Game</title>
+	<link rel="stylesheet" href=".\css\game.css">
 </head>
 <body>
-	
+	<!-- Play with sound btn -->
+	<div class="center" style="top: 10%">
+		<audio id="audio" >
+		<source src="./fx/backgroundNoise.mp3" type="audio/mp3">
+		</audio>
+
+		<button id="snd"onClick="playBackGroundMusic(true)" style="font-size: 20px;">Click me to play with background music!</button>
+		<button id="snd2"onClick="playBackGroundMusic(false)" style="font-size: 20px; display: none;">Click me to play without background music!</button>
+
+	</div>
+	<!-- Actual game -->
+	<p id="txt" class="center"></p>
+	<br>
+	<button class="txtOffset1" onClick="choice()"> Play Now </button>
+	<button class="txtOffset2" onClick="choice()"> Play Now </button>
+
+	<!--Define all js -->
+	<script defer src=".\js\game.js"> </script>
+	<script defer src=".\js\txtWrite.js"> </script>
+	<script defer src=".\js\btn.js"> </script>
 </body>
 </html>
