@@ -1,3 +1,5 @@
+//recieves sound consent from music js
+
 /*Code for the buttons*/
 /*function below plays sound files in a
 list based on a random value
